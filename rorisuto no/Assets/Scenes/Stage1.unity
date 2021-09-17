@@ -658,6 +658,11 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  stopAnime: PlayerStop
+  moveAnime: PlayerMove
+  jumpAnime: PlayerJump
+  goalAnime: PlayerGoal
+  deadAnime: PlayerOver
 --- !u!95 &967195030
 Animator:
   serializedVersion: 3
@@ -958,12 +963,12 @@ PrefabInstance:
     - target: {fileID: 4526058367823205260, guid: 3685aee06600354459b774719e7e3f46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9135926
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 4526058367823205260, guid: 3685aee06600354459b774719e7e3f46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4376159
+      value: -2.28
       objectReference: {fileID: 0}
     - target: {fileID: 4526058367823205260, guid: 3685aee06600354459b774719e7e3f46,
         type: 3}
